@@ -1,0 +1,51 @@
+.contacts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100vh;
+  background-color: white;
+}
+
+.contacts > header {
+  background-color: #00bfa5;
+  padding-right: 20px;
+  padding-left: 23px;
+  z-index: 200;
+  box-sizing: border-box;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 108px;
+  color: white;
+}
+
+.headerWrapper {
+  padding: 0;
+  background-color: initial;
+  text-align: initial;
+  height: 59px;
+  display: flex;
+  flex: none;
+  align-items: center;
+  width: 100%;
+}
+
+.iconButton {
+  width: 53px;
+  flex: none;
+  vertical-align: top;
+}
+
+.newChatText {
+  margin-top: -3px;
+  font-weight: 500;
+  flex-grow: 1;
+  overflow: hidden;
+  font-size: 19px;
+  line-height: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

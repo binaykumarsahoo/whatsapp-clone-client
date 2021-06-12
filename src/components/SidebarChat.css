@@ -1,0 +1,60 @@
+.sidebarChat {
+  display: flex;
+  /* padding: 20px 20px 0 20px; */
+  cursor: pointer;
+  height: 73px;
+  background-color: #fff;
+}
+
+.sidebarChat.active {
+  background-color: #ebebeb;
+}
+
+.sidebarChat:hover {
+  background-color: #f5f5f5;
+}
+
+.sidebarChat__avatar {
+  display: flex;
+  flex: none;
+  margin-top: -1px;
+  padding: 0 15px 0 13px;
+  align-items: center;
+}
+
+.sidebarChat__avatar > .MuiAvatar-root {
+  width: 49px;
+  height: 49px;
+}
+
+.sidebarChat__info > h2 {
+  font-size: 16px;
+  /* margin-bottom: ; */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.sidebarChat__info > p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.sidebarChat__info {
+  border-top: 1px solid #f6f6f6;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto;
+  flex-grow: 1;
+  justify-content: center;
+  min-width: 0;
+  padding-right: 15px;
+}

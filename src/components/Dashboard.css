@@ -1,0 +1,22 @@
+/* .dashboard {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #dadbd3;
+} */
+
+.dashboard__body {
+  display: flex;
+  background-color: #e5ddd5;
+  /* margin-top: -50px; */
+  height: 100vh;
+  /* z-index: 100; */
+  /* width: 90vw; */
+  /* box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75); */
+}
+
+@media screen and (min-width: 1441px) {
+  .dashboard__body {
+    height: calc(100vh - 38px);
+  }
+}
